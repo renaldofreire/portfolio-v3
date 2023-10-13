@@ -55,7 +55,7 @@ const modalViews = document.querySelectorAll('.services__modal'),
     modalBtns = document.querySelectorAll('.services__button'),
     modalCloses = document.querySelectorAll('.services__modal-close')
 
-let modal = function (modalClick) {
+let modal = function(modalClick) {
     modalViews[modalClick].classList.add('active-modal')
 }
 
@@ -88,7 +88,7 @@ let swiperPortfolio = new Swiper('.portfolio__container', {
 });
 
 /*==================== TESTIMONIAL ====================*/
-let swiperTestimonial = new Swiper('.testimonial__container', {
+var swiperTestimonial = new Swiper('.testimonial__container', {
     loop: true,
     grabCursor: true,
     spaceBetween: 48,
