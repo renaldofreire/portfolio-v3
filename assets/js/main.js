@@ -83,7 +83,7 @@ let swiperPortfolio = new Swiper('.portfolio__container', {
 });
 
 /*==================== TESTIMONIAL ====================*/
-var swiperTestimonial = new Swiper('.testimonial__container', {
+let swiperTestimonial = new Swiper('.testimonial__container', {
   loop: true, grabCursor: true, spaceBetween: 48,
 
   pagination: {
